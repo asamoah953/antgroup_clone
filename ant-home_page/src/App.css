@@ -1,0 +1,291 @@
+/* all this is about the header */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.body_image {
+    width: 100%;
+    height: 375px;
+    object-fit: cover; /* Prevents distortion */
+}
+
+.header_image {
+    width: 120px;
+    display: inline-block;
+    position: relative;
+    left: 70px;
+}
+
+/* .header_container {
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+} */
+
+
+
+.about {
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    top: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.business {
+    display: inline-block;
+    position: relative;
+    left: 290px;
+    top: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.innovation {
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    top: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.esg {
+    display: inline-block;
+    position: relative;
+    left: 399px;
+    top: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.news {
+    display: inline-block;
+    position: relative;
+    left: 450px;
+    top: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.join {
+    display: inline-block;
+    position: relative;
+    left: 490px;
+    top: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.en {
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    top: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header_container {
+    height:60px;
+}
+
+
+.cases_container {
+    
+    display: inline-block;
+    vertical-align: top; /* Ensures proper alignment */
+    margin: 20px;
+    margin-top: 750px;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: left; /* Aligns text to the start */
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.bus {
+    position: relative; /* Keeps it positioned within its container */
+    width: 100%; /* Ensures it fits within the parent container */
+    height: 350px;
+    border-radius: 10px;
+    border-bottom: 1px solid black; /* Separates image from other content */
+}
+
+.cases {
+    position: relative;
+    bottom:650px;
+    margin-left: 190px;
+}
+
+
+
+/* all this are for the Nav bar */
+
+.nav_bar {
+    width: 100%;
+    height: 75px;
+    display: inline-block; /* Changed from inline */
+    position: absolute;
+    bottom: 177px;
+    left: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6e6d6d;
+    background-color: white; /* Ensures visibility */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Bottom shadow */
+}
+
+
+.payment {
+    display: inline-block;
+    position: relative;
+    left: 170px;
+    top: 20px;
+
+}
+
+.connectivity {
+    display: inline-block;
+    position: relative;
+    left: 230px;
+    top: 20px;
+
+}
+
+.finance {
+    display: inline-block;
+    position: relative;
+    left: 282px;
+    top: 20px;
+    
+}
+
+.tech {
+    display: inline-block;
+    position: relative;
+    left: 332px;
+    top: 20px;
+
+}
+
+.global {
+    display: inline-block;
+    position: relative;
+    left: 389px;
+    top: 20px;
+
+}
+
+
+/* for all that is in the BodyInfo  componet*/
+
+.bodyinfo_container {
+    width: 100vw; /* Ensures full viewport width */
+    max-width: 100%; /* Prevents overflow */
+    height: 870px;
+    position: relative;
+    left: 0; /* Ensures full alignment */
+    top: 530px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #6e6d6d;
+    text-align: justify;
+    border-left: 1px solid black;  /* Only left border */
+    border-right: 1px solid black; /* Only right border */
+    padding: 20px; /* Adds spacing inside */
+    box-sizing: border-box; /* Ensures the border is within width */
+    box-shadow: 0px 6px 10px rgba(160, 158, 158, 0.2); /* Adds a bottom shadow */
+    
+    
+}
+
+
+.body_history {
+    margin-left: 150px;
+
+}
+
+
+.product_header {
+    color: black;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-left: 150px;
+
+
+}
+
+.product_router {
+    display: inline;
+    position: relative;
+    left: 150px;
+    bottom:340px ;
+    margin-right: 30px;
+    line-height: 1.6;
+
+
+}
+
+.commercial_image {
+    position: relative;
+    width: 595px;
+    right: 470px;
+    top: 76px;
+    right: 405px;
+    border-radius: 10px;
+    
+
+}
+
+.commercial_payment {
+    position: relative;
+    left: 828px;
+    bottom: 290px;
+}
+
+
+
+/* the web in web style */
+.web-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.web-frame {
+    width: 29%;
+    height: 200px;
+    border-collapse: collapse; /* Ensures no extra spacing */
+    border-top: 1px solid black; /* Keeps only the top border */
+    border-left: none; /* Removes left border */
+    border-right: none; /* Removes right border */
+    border-bottom: none; /* Removes bottom border */
+    border-radius: 0; /* Removes rounded corners */
+    box-shadow: none; /* Removes all shadows */
+    position: relative;
+    left: 230px;
+    bottom: 290px;
+}
+
