@@ -99,21 +99,36 @@ body {
     font-weight: 500;
 }
 
+.digital_imagetext {
+    position: absolute;
+    margin-left: 200px;
+    top: 190px;
+    font-size: 49px;
+    color: #f8f8f8;
+}
+
+.digital_imagetext2 {
+    position: absolute;
+    margin-left: 200px;
+    top: 290px;
+    font-size: 20px;
+    color: #f8f8f8;
+}
+
 .header_container {
     height:60px;
 }
 
 
 .cases_container {
-    
     display: inline-block;
-    vertical-align: top; /* Ensures proper alignment */
+    vertical-align: top;
     margin: 20px;
     margin-top: 750px;
     border-radius: 10px;
     width: 500px;
     height: 500px;
-    text-align: left; /* Aligns text to the start */
+    text-align: left;
     background-color: #f8f8f8;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
@@ -121,21 +136,42 @@ body {
     font-family: Arial, sans-serif;
     font-size: 14px;
     font-weight: 500;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.cases_container:hover {
+    transform: translateY(-10px); /* Moves the container up */
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3); /* Enhances the shadow */
+}
+
 
 
 .bus {
     position: relative; /* Keeps it positioned within its container */
     width: 100%; /* Ensures it fits within the parent container */
     height: 350px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     border-bottom: 1px solid black; /* Separates image from other content */
+}
+
+.bus_link {
+    margin-left: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .cases {
     position: relative;
     bottom:650px;
     margin-left: 190px;
+}
+
+.partner_heading {
+    position: absolute;
+    top: 1550px;
+    margin-left: 100px;
+    font-size: 39px;
+    color: rgb(72, 71, 71);
 }
 
 
@@ -197,6 +233,17 @@ body {
     top: 20px;
 
 }
+
+.all_links {
+    text-decoration: none;
+    color: #857e7e;
+}
+
+.all_links:active,
+.all_links:focus {
+    color: blue;
+}
+
 
 
 /* for all that is in the BodyInfo  componet*/

@@ -1,24 +1,23 @@
-import HeaderImage from './components/header';
-import DigitalPayment from './components/DigitalPaymentImage';
-import Navbar from './components/NavBar';
-import BodyInfo from './components/BodyInfo';
-import PartnerExperience from './components/PartnerExperience';
-import Bus from './assets/bus.webp';
-import Bank from './assets/bank.webp'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './Pages/HomePage.jsx';
+import Navbar  from './components/NavBar.jsx';
+
+
 
 
 function App() {
   return(
     <>
-    <div className='header_container'>
-     < HeaderImage/>
-     < DigitalPayment />
-     <Navbar />
-  </div>
-    <BodyInfo />
-    <PartnerExperience Bus={Bus} message="Hangzhou pioneered the use of QR code payments for bus fares" info="Bus and subway setworks in more than 200 cities, including Beiing,..."/>
-    <PartnerExperience Bus={Bank} message="Fuzhou's first credit payment for medical services" info="Paying medical bills and skipping hospital queues with one click"/>
-     
+
+    <Router>
+    <Navbar />
+
+      <Routes>
+        <Route path='/' element = { < HomePage/> }/>
+      </Routes>
+    </Router>
+    
+  
 
     </>
   )

@@ -11,9 +11,9 @@ function BodyInfo() {
 
             <h2 className='product_header'>Product and Services</h2>
             
-            <h3 className='product_router'>Commercial Payment</h3>
-            <h3 className='product_router'>Convenient Payment</h3>
-            <h3 className='product_router'>Payment for Transport</h3>
+            <Link to='/commercial' className='all_links'><h3 className='product_router'>Commercial Payment</h3></Link>
+            <Link to='/convenient' className='all_links'><h3 className='product_router'>Convenient Payment</h3></Link>
+            <Link to='/transport' className='all_links'><h3 className='product_router'>Payment for Transport</h3></Link>
 
             <img src={CommercialImage} alt="commercial image" className='commercial_image'/>
             <h2 className='commercial_payment'>Commercial Payment</h2> 
