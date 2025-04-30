@@ -9,7 +9,7 @@ function PartnerExperience({Bus, message, info}) {
             <img src={Bus} alt="partner experience" className="bus"/>
             <h3>{message}</h3>
             <h4>{info}</h4>
-            <Link className='bus_link'>more...</Link>
+            <Link className='bus_link'>more &rsaquo;</Link>
 
 
         </div>

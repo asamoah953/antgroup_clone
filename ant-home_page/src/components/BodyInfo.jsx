@@ -16,7 +16,7 @@ function BodyInfo() {
             <Link to='/transport' className='all_links'><h3 className='product_router'>Payment for Transport</h3></Link>
 
             <img src={CommercialImage} alt="commercial image" className='commercial_image'/>
-            <h2 className='commercial_payment'>Commercial Payment</h2> 
+            <Link to='#' className='all_links'><h2 className='commercial_payment'>Commercial Payment</h2> </Link>
 
             <WebInWeb />
    
