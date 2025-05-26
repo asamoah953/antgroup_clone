@@ -27,9 +27,21 @@ body {
 } */
 
 /* hearder bar */
-/* .header_bar {
+ .header_bar {
+    width: 100%;
     position: fixed;
-} */
+    background-color: white;
+} 
+
+.languages_container {
+    width: 200px;
+    height: 100px;
+}
+
+.languages {
+    position: relative;
+    left:1000px;
+}
 
 
 .about {
@@ -390,3 +402,19 @@ body {
     color: #339CFF;
   }
 
+
+  .language-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .languages_container {
+    position: absolute;
+    top: 100%;
+    left: 370px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
